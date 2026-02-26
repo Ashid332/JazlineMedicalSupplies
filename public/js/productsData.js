@@ -24,16 +24,16 @@ const productsData = [
 
 document.addEventListener('DOMContentLoaded', () => {
     const categories = ['diagnostic', 'furniture', 'physiotherapy', 'consumables'];
-    
+
     categories.forEach(cat => {
         const grid = document.getElementById(`grid-${cat}`);
         if (!grid) return;
-        
+
         const catProducts = productsData.filter(p => p.categoryId === cat);
         grid.innerHTML = catProducts.map(p => `
             <div class="product-card">
                 <div class="product-img-wrap" style="height: 120px; display: flex; align-items: center; justify-content: center; margin-bottom: 16px;">
-                    <img src="public/images/products/${p.image}" alt="${p.name}" style="max-height: 100%; max-width: 100%; object-fit: contain;">
+                    <img src="images/products/${p.image}" alt="${p.name}" style="max-height: 100%; max-width: 100%; object-fit: contain;">
                 </div>
                 <h4>${p.name}</h4>
                 <p class="text-sm">${p.desc}</p>

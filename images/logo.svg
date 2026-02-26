@@ -1,0 +1,21 @@
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0A3D6B"/>
+      <stop offset="100%" stop-color="#00A6CE"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="6" rx="8" ry="8" width="48" height="28" fill="url(#grad)"/>
+  <path d="M14 26 L20 14 L26 26" stroke="#FFFFFF" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="34" cy="16" r="3" fill="#FFFFFF"/>
+  <circle cx="34" cy="24" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <text x="58" y="24" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="16" font-weight="700" fill="#0F172A" letter-spacing="0.04em">
+    JAZLINE
+  </text>
+  <text x="58" y="33" font-family="Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="9" font-weight="500" fill="#64748B" letter-spacing="0.16em">
+    MEDICAL SUPPLIES
+  </text>
+</svg>
+
